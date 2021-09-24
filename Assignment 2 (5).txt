@@ -1,0 +1,156 @@
+void main () {
+var a=2;
+  var b=1;
+  var a1=2;
+  var b1=1;
+var a2=2;
+  var b2=1;
+var a3=2;
+  var b3=1;
+  var c = --a ;
+  print(c);
+   //2-1 = 1 .'a' initial value is '2' after prefix decrement 'a' value is '1'
+  
+  var d = --a1 - --b1;
+  print(d);
+  //'a' initial value is '2' after prefix decrement 'a' value is '1', similarly 'b' initial value is '1', after prefix decrement 'b' value is '0'
+  
+  var e = --a2 - --b2 + ++b2;
+  print (e);
+  //  'a' initial value is '2' after prefix decrement 'a' value is '1', similarly 'b' initial value is '1', after prefix decrement 'b' value is '0',
+  // so 'b' value is '0' again pre increament in 'b' so the value of b is 1. a=1 and b=1 so answer is 2
+  
+  var   f = --a3 - --b3 + ++b3 +b3--;
+  print (f);
+  ////  'a' initial value is '2' after prefix decrement 'a' value is '1', similarly 'b' initial value is '1', after prefix decrement 'b' value is '0',
+  // so 'b' value is '0' again pre increament in 'b' so the value of b is 1. and postdecrement in 'b' so b is count before decrement.  a=1 and b=1 ,after post decrement b=1  answer is 3
+  
+  
+}
+
+{
+  var ticket_1 =600;
+    var buying_ticket = 5;
+  var ticket_2 = ticket_1* buying_ticket;
+  print("Cost of buying $buying_ticket ticket is $ticket_2 pkr");
+            
+}
+
+{   
+//Q5
+  //??=
+//Assign the value only if the variable is null
+ //?  
+ // when you want to call a method/getter on an object IF that object is not null (otherwise, return null).
+
+{
+  
+  var password = "Pakistan"; 
+  print("Enter Your Password _________________");
+  
+  
+  if  (password == "Pakistan"){
+    print('password is Correct');
+  }
+  
+  
+ else if (password != "Pakistan"){
+    print("password not Correct"); 
+ }
+  var password2 = "aftab";
+  print("Enter Your Password 2 __________________");
+  if (password2 == "KHAN"){
+    print("password is correct");
+  }
+else if (password2 !="KHAN" ){
+      print("password2 is incorrect");
+    }
+      }
+  
+  
+  
+
+
+
+
+{
+
+
+          var lst2  = [300,200,300];
+  var e4 = lst2.first;
+  var e5 = lst2.elementAt(1);
+  var e6 = lst2.last;
+  print ("MARKS OF SAMI IS ${e4}");
+  print ("MARKS OF FASAL IS ${e5}");
+  print ("MARKS OF KHALIL IS ${e6}");
+  print ("Total Marks 500" );
+  
+print ("Total Marks of each students are 500" );
+ num b = 300;
+  num c = 200;
+  num d = 300;
+  num z = 500;
+  num y = 100;
+  var m = b/z*y;
+  var h= c/z*y;
+  var f = d/z*y;
+  print ("percentage of Sami = ${m}%");
+  print ("percentage of Fasal = ${h}%");
+  print ("percentage of Khalil = ${f}%");
+           }          
+{
+  // ILLEGAL VARIABLES:  
+  // 1)Var a = "asd"; (Capitlization of varible first letter in not allow)
+  // 2) var 3 = "ebad"; (Number are not allow)
+  // 3) var  a b  = "b  c"; (Blank spaces are not allow)
+  // 4) var & = "pr"; (Special chracter are not allow)
+  // 5) var abc = "abc";
+  // 5) var abc = "abc"; (Same alfabat are not allow in second varibles)
+
+  
+  
+  
+  // LEGAL VARIABLES
+  // 1) var a = "abc";
+  // 2) var b = 5;(number in result are allow)
+  // 3) var ABC = "pakistan";(upper case name are allow)
+  // 4) var num = 'karachi'; (another command like num,string are always allowed)
+  // 5) var c = "karachi1"; (Alfabat and number are allowed to print together)
+
+}
+
+{
+
+ var a = "Hyderabad";
+  print (a);
+ a = a.replaceAll("Hyder","Islam");
+  print (a);
+
+
+}
+
+{
+  num z = 300;
+  num x = 11;
+  num v = x*z;
+  num n = 500;
+   num m = v+n;
+  
+var a = "Name                                 :           Samiullah";
+  print (a);
+  var b = "Current Month                        :           September";
+  print (b);
+  var c  =  "Number of unites                     :           ${z} ";
+  print (c);
+  var d  =  "charges per unit                     :           per unit  ${x}";
+  print (d);
+  var e = "Net Amount Payable (Within Due Date) :           ${v}";
+  print (e);  
+  var f = "Late Payment Surcharge               :           ${n}";
+  print (f);
+  var g = "Gross Amount Payable (After Due Date):           ${m}";
+  print (g);
+    
+           }                                           
+
+  
